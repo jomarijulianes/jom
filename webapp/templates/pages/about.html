@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+   <head>
+
+        <title>About</title>
+        <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <link rel="icon" type="images/x-icon" href="{% static '/images/logo.png' %}">
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+   {% include 'pages/navbar.html' %}
+    <body>
+
+      <section class="about">
+    <h1 class="heading">About Us</h1>
+    <h3 class="title">Join us to embark your IT journey and become a skilled programmer</h3>
+
+    <div class="row">
+        <div class="about-image">
+            <img src="{% static '/images/about.png' %}">
+        </div>
+        <div class="content">
+            <h3>What is TECH-CITE?</h3>
+            <p>Tech-Cite is a dedicated online platform tailored for aspiring IT students, offering valuable guidance to help them navigate the exciting journey towards realizing their dreams in the dynamic field of Information Technology. Serving as a comprehensive resource, Tech-Cite functions as both a guide and a stepping stone, providing essential information and resources to support students in meeting the requirements of the ever-evolving IT landscape. <br>
+            <br> Tech-Cite facilitates practical learning by offering insights and experiences shared by seasoned IT professionals and fellow IT students. Students can gain valuable perspectives on the industry, learn about best practices, and understand the diverse career paths available within the IT domain. <br>Padayon future IT endeavors and may all your aspirations as an IT professional materialize into reality.  </p>
+        </div>
+    </div>
+</section>
+
+    </body>
+    <script src="{% static 'js/script.js' %}"></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+</html>

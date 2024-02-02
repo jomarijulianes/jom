@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+      <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <link rel="icon" type="images/x-icon" href="{% static '/images/logo.png' %}">
+    
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+{% include 'pages/navbar.html' %}
+<body>
+<section class="services" id="services">
+    <h1 class="heading">Services</h1>
+    <h3 class="title">Discover our website designed for effortless navigation providing a few information about IT field.</h3>
+
+<div class="card-container">
+    <div class="card">
+        <img src="{% static '/images/tool.png' %}">
+        <h3>Tech Toolkits for Beginners</h3>
+        <p>Get started on the right foot with our carefully curated tech toolkits. Access essential software, IDEs, and resources specifically chosen to facilitate a smooth onboarding process for beginners.</p>
+        
+    </div>
+     <div class="card">
+        <img src="{% static '/images/2.png' %}">
+        <h3>Beginner-Friendly Learning Paths</h3>
+        <p>Embark on your IT journey with our curated learning paths tailored for beginners. From coding fundamentals to specialized IT fields, our guided paths provide a structured approach to acquiring essential skills.</p>
+        
+    </div>
+     <div class="card">
+        <img src="{% static '/images/3.png' %}">
+        <h3>Technology Fundamentals</h3>
+        <p>Gain a solid understanding of technology fundamentals with our comprehensive resources. Dive into interactive modules covering crucial concepts such as languages, framework, and development.</p>
+        
+    </div>
+    </div>
+</section>
+</body>
+<script src="{% static 'js/script.js' %}"></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+</html>

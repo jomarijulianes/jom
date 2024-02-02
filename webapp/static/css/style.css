@@ -1,0 +1,21 @@
+.footer{
+    text-align: center;
+    background-color: white;
+}
+
+.footer .icons{
+    padding: 3rem 0;
+}
+
+.footer .icons a{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.2rem;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--bg-color);
+    border: .3rem solid var(--bg-color);
+    font-size: 2rem;
+    margin: 0 .1rem;
+    transition: .2s linear;
+}
